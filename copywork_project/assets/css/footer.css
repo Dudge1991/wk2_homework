@@ -1,0 +1,28 @@
+footer{
+    color: rgb(71, 70, 70);
+}
+
+#footer-group{
+    margin: 5rem 10rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#footer-group a{
+    text-decoration: none;
+    color: rgb(71, 70, 70);
+}
+
+#footer-group a:hover{
+    text-decoration: underline;
+}
+
+#list-flex{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+#list-flex li{
+    width: 25%;
+}
